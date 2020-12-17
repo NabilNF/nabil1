@@ -1,0 +1,73 @@
+body {
+  background: #cdd2d6;
+}
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-item: center;
+}
+.calculator {
+  width: 460px;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px auto;
+  font-size: 16px;
+  background-color: #999999;
+}
+.input {
+  width: 420px;
+  height: 50px;
+  border-radius: 0px;
+  border: 1px solid black;
+  background-color: #333333;
+  color: #d9d9d9;
+  padding: 0 5px 0 5px;
+  margin: 0 0px 10px 0px;
+  font-size: 30px;
+}
+.input:focus,
+.input:active {
+  border-color: #13145f;
+  box-shadow: 0 0 4px rgb(48, 66, 56);
+  outline: none 0;
+}
+.button {
+  margin: 3px;
+  width: 65px;
+  border: 1px solid #222222;
+  height: 30px;
+  border-radius: 4px;
+  color: #d932d9;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  outline: none;
+}
+.mode {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+} 
+.equal-sign {
+  background-color: rgb(3, 3, 73);
+  width: 140px;
+}
+.toggle-button {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 1rem;
+  color: #223;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.35);
+}
+p {
+  margin-top: 0;
+}
+button::-moz-focus-inner {
+  border-color: transparent;
+}
